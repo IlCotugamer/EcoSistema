@@ -19,3 +19,13 @@ Scarica l’app dallo store del tuo dispositivo mobile.
 - Completa il questionario iniziale per valutare il tuo livello di eco-sostenibilità e ricevere i tuoi primi punti.
 - Inizia a registrare le tue azioni eco-sostenibili tramite l’app e a guadagnare ulteriori punti.
 - Scopri i premi disponibili e scegli quelli che più ti interessano.
+
+# Come runnare il server web
+Per runnare il sito bisogna installare il requirements.txt tramite il comando: 
+```sh
+python -m pip install -r requirements.txt
+```
+Infine per runnare effetivamente il server:
+```sh
+python app.py
+```
