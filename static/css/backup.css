@@ -1,0 +1,170 @@
+*{
+    color: #33363F;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+.flex-navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.margin-left-navbar{
+    margin-left: 9vw;
+}
+
+.margin-right-navbar{
+    margin-right: 9vw;
+}
+
+.navbar{
+    background-color: #2c3d33;
+    height: 6em;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse{
+    background-color: #2c3d33;
+}
+
+.hdr-div{
+    background-color: #2c3d33;
+    padding: 5px;
+
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-brand{
+    height: 100%;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+
+.navbar-img{
+    width: 10em;
+}
+
+.collapsed{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-light{
+    color: white;
+}
+.verde{
+    color:#02e72a;
+}
+.custom-button{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-color:  #02e72a;
+    border: 0px;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.custom-button:hover{
+    background-color: #03cc24;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    background-image: url("/static/img/forest.png");
+    padding: 50px;
+}
+
+.space{
+    font-weight: 900;
+}
+.ottocento{
+    color:black;
+    font-weight: 800;
+    font-size: 50px;
+}
+.text-p{
+    width: 60%;
+    font-size: 15px;
+}
+
+.pdiv{
+    width: 80%;
+    font-size: 25px;
+}
+
+.pimg{
+    width: 80%;
+}
+
+.col-left {
+    text-align: left;
+}
+
+.col-right {
+    text-align: right;
+}
+
+.store-img{
+    width: 200px;
+}
+
+.partecipa-img{
+    width: 650px;
+}
+
+.imgfooter{
+    width: 15%;
+    height:15%;
+}
+
+.classifica{
+    background-color: #f4f4f4;
+    padding: 100px;
+}
+
+.margine{
+    margin-top: 120px;
+}
+
+.margine-sinistra{
+    margin-left: 50px;
+}
+
+.margine-destra{
+    margin-right: 100px;
+}
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: .45rem;
+    background-color: rgb(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(27, 27, 27, .4);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+    background-color: rgba(27, 27, 27, .6);
+}
